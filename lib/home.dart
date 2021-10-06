@@ -26,93 +26,115 @@ class _HomeState extends State<Home> {
         child: Stack(
           children: [
             Positioned(
-              top: 50,
-              left: 30,
-              height: 250,
-              width: 250,
+              top: 5,
+              left: 100,
               child: Container(
-                width: 150,
-                height: 150,
-                color: Colors.green,
-                child: Text(
-                  'Green 1',
-                  style: TextStyle(color: Colors.white, fontSize: 20),
+                decoration: BoxDecoration(
+                  color: Colors.black,
+                  border: Border.all(width: 2, color: Colors.black),
                 ),
+                child: Center(
+                  child: Text(
+                    "Sajid shaikh",
+                    style: TextStyle(fontSize: 25, color: Colors.white),
+                  ),
+                ),
+                width: 250,
+                height: 80,
               ),
             ),
             Positioned(
-              top: 80,
-              left: 60,
-              height: 250,
-              width: 250,
+              top: 190,
+              left: 190,
               child: Container(
-                width: 150,
-                height: 150,
-                color: Colors.red,
-                child: Text(
-                  'Red ',
-                  style: TextStyle(color: Colors.white, fontSize: 20),
+                decoration: BoxDecoration(
+                  color: Colors.lightBlue,
+                  border: Border.all(width: 2, color: Colors.black),
                 ),
+                // child: Text(""),
+                width: 100,
+                height: 100,
               ),
             ),
             Positioned(
-              top: 110,
-              left: 90,
-              height: 250,
-              width: 250,
+              top: 130,
+              left: 135,
               child: Container(
-                width: 150,
-                height: 150,
-                color: Colors.white,
-                child: Text(
-                  'white',
-                  style: TextStyle(color: Colors.black, fontSize: 20),
+                decoration: BoxDecoration(
+                  color: Colors.red,
+                  border: Border.all(width: 2, color: Colors.black),
                 ),
+                width: 100,
+                height: 100,
               ),
             ),
             Positioned(
-              top: 140,
-              left: 120,
-              height: 250,
-              width: 250,
+              top: 60,
+              left: 55,
               child: Container(
-                width: 150,
-                height: 150,
-                color: Colors.brown,
-                child: Text(
-                  'brown',
-                  style: TextStyle(color: Colors.white, fontSize: 20),
+                decoration: BoxDecoration(
+                  color: Colors.yellow,
+                  border: Border.all(width: 2, color: Colors.black),
                 ),
+                width: 130,
+                height: 130,
               ),
             ),
             Positioned(
-              top: 170,
-              left: 90,
-              height: 250,
-              width: 250,
+              top: 450,
+              left: 65,
               child: Container(
-                width: 150,
-                height: 150,
-                color: Colors.grey,
-                child: Text(
-                  'Green 1',
-                  style: TextStyle(color: Colors.white, fontSize: 20),
+                decoration: BoxDecoration(
+                  color: Colors.limeAccent,
+                  border: Border.all(width: 2, color: Colors.black),
                 ),
+                width: 150,
+                height: 130,
               ),
             ),
             Positioned(
-              top: 210,
-              left: 60,
-              height: 250,
-              width: 250,
+              top: 250,
+              left: 260,
               child: Container(
-                width: 150,
-                height: 150,
-                color: Colors.cyan,
-                child: Text(
-                  'cyan',
-                  style: TextStyle(color: Colors.white, fontSize: 20),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  border: Border.all(width: 2, color: Colors.black),
                 ),
+                child: Center(
+                  child: Text(
+                    "Center",
+                    style: TextStyle(
+                        fontSize: 25,
+                        color: Colors.black,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ),
+                width: 120,
+                height: 120,
+              ),
+            ),
+            Positioned(
+              top: 350,
+              left: 200,
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.brown,
+                  border: Border.all(width: 2, color: Colors.black),
+                ),
+                width: 100,
+                height: 100,
+              ),
+            ),
+            Positioned(
+              top: 400,
+              left: 140,
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.cyanAccent,
+                  border: Border.all(width: 2, color: Colors.black),
+                ),
+                width: 100,
+                height: 100,
               ),
             ),
           ],
